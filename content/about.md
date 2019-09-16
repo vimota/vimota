@@ -1,8 +1,3 @@
-+++
-title = "About"
-date = "2019-06-09"
-+++
-
 I'm an engineer at Google (Kaggle), and studied Computer Engineering at the University of Waterloo.
 
 Things I'm currently thinking about and working on:

@@ -3,8 +3,11 @@ import Head from 'next/head';
 export default () => (
   <div>
     <Head>
+      <title>Victor Mota</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link href="/atom" type="application/atom+xml" rel="alternate" title="Victor Mota" />
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
+      <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.png" />
     </Head>
 
     { /* global styles */ }
@@ -14,15 +17,15 @@ export default () => (
         box-sizing: border-box;
       }
       body {
-        font: 14px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        font: 16px 'Lato', sans-serif;
       }
       a {
-        color: #ff7133;
+        color: #689f38;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
       }
       a:hover {
         color: #fff;
-        background: #ff7133;
+        background: #387002;
         text-decoration: none;
       }
       p {

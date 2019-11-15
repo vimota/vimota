@@ -12,7 +12,7 @@ function About() {
 				article {
 					max-width: 650px;
 					margin: auto;
-					font-size: 14px;
+					font-size: 16px;
 				}
 			`}</style>
 

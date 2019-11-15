@@ -38,7 +38,7 @@ const Home = () => (
       text-align: center;
     }
     h1 {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: normal;
     }
     nav {

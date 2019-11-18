@@ -17,9 +17,14 @@ export default () => (
       openGraph={{
         url: 'https://vimota.me/',
         title: 'Victor Mota',
+        type: 'website',
         description: 'Disciplined reason in action.',
         images: [
-          { url: 'https://vimota.me/static/favicon.png' },
+          { width: 192,
+            height: 192,
+            url: 'https://vimota.me/static/favicon.png',
+            alt: 'Logo'
+          },
         ],
         site_name: 'Victor Mota',
       }}

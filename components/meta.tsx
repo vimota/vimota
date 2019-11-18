@@ -19,7 +19,7 @@ export default () => (
         title: 'Victor Mota',
         description: 'Disciplined reason in action.',
         images: [
-          { url: '/static/favicon.png' },
+          { url: 'https://vimota.me/static/favicon.png' },
         ],
         site_name: 'Victor Mota',
       }}

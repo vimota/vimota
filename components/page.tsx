@@ -1,8 +1,8 @@
 import Meta from './meta';
 import Link from 'next/link';
 
-
-export default ({ children }) => (
+export default ({ children }) => {
+  return (
     <div className="main">
       <div className="logo">
         <Link href="/"><a>vimota.me</a></Link>
@@ -76,4 +76,4 @@ export default ({ children }) => (
         }
       `}</style>
     </div>
-  );
+  )};

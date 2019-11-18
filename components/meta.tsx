@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
+import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default () => (
   <div>
@@ -9,6 +10,15 @@ export default () => (
       <link href="/atom" type="application/atom+xml" rel="alternate" title="Victor Mota" />
       <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
       <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.png" />
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}></script>
+      <script dangerouslySetInnerHTML={
+        { __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments)}
+            gtag("js", new Date());
+            gtag("config", '${GA_TRACKING_ID}');
+        `}
+      }></script>
     </Head>
     <NextSeo
       title="Victor Mota"

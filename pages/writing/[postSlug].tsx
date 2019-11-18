@@ -23,7 +23,6 @@ class Post extends React.Component<Props> {
 				article {
 					max-width: 650px;
 					margin: auto;
-					font-size: 14px;
 				}
 			`}</style>
 

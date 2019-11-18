@@ -29,6 +29,7 @@ A random collection of resources and stories on Bootstrapping, Indiehack(ing), a
 
 People to follow:
 
+- [Courtland Allen, Indiehackers founder](https://twitter.com/csallen)
 - <https://twitter.com/awilkinson>
 - <https://twitter.com/tylertringas>
 - <https://twitter.com/levelsio>

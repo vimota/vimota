@@ -13,6 +13,7 @@ export default ({ children }) => (
         <nav>
           <Link href="/about"><a>About Me</a></Link>
           <Link href="/writing"><a>Writing</a></Link>
+          <Link href="/books"><a>Books</a></Link>
           <a target="_blank" href="https://twitter.com/vimota">Twitter</a>
           <a href="mailto:vimota@gmail.com">Email</a>
         </nav>

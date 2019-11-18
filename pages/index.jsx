@@ -16,6 +16,7 @@ const Home = () => (
         <nav>
           <Link href="/about"><a>About Me</a></Link>
           <Link href="/writing"><a>Writing</a></Link>
+          <Link href="/books"><a>Books</a></Link>
           <a target="_blank" href="https://twitter.com/vimota">Twitter</a>
           <a href="mailto:vimota@gmail.com">Email</a>
         </nav>
@@ -43,6 +44,14 @@ const Home = () => (
     }
     nav {
       margin-top: 20px;
+      display: flex;
+      flex-flow: row wrap;
+      width: 300px;
+      align-items: center;
+      justify-content: center;
+    }
+    nav > * {
+      margin-top: 10px;
     }
     a {
       display: inline-block;

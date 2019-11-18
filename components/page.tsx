@@ -43,6 +43,9 @@ export default ({ children }) => (
           display: inline-block;
           margin: 0 15px;
         }
+        .content {
+          width: 100%;
+        }
         @media (max-width: 500px) {
           .main {
             padding: 25px 15px;
@@ -50,14 +53,14 @@ export default ({ children }) => (
           .logo {
             padding-bottom: 20px;
           }
+          .content {
+            width: 260px;
+          }
         }
         .flexcontainer {
           margin-top: 20px;
           display: flex;
           flex-direction: row;
-        }
-        .content {
-          width: 100%;
         }
         nav {
           min-width: 95px;

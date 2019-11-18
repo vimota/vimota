@@ -12,10 +12,10 @@ A random collection of resources and stories on Bootstrapping, Indiehack(ing), a
 
 - [Indiehackers] (indiehackers.com)
 - Indiehackers Interviews:
-  - <https://www.indiehackers.com/interview/creating-a-100-000-mo-business-that-helps-people-learn-to-code-c5e87bdbf9>
-  - <https://www.indiehackers.com/interview/i-ran-my-side-hustle-during-work-hours-now-it-makes-millions-35469ddaa5>
-  - <https://www.indiehackers.com/interview/i-started-gumroad-as-a-weekend-project-and-now-it-s-making-350k-mo-4fc6cbc0e8>
-  - <https://www.indiehackers.com/interview/growing-a-social-proof-marketing-platform-to-88k-mo-in-revenue-05b996966c>
+  - [Creating a $100,000/mo Business That Helps People Learn to Code](https://www.indiehackers.com/interview/creating-a-100-000-mo-business-that-helps-people-learn-to-code-c5e87bdbf9)
+  - [Creating a $100,000/mo Business That Helps People Learn to Code](https://www.indiehackers.com/interview/i-ran-my-side-hustle-during-work-hours-now-it-makes-millions-35469ddaa5)
+  - [I Started Gumroad as a Weekend Project and Now It’s Making $350k/Mo](https://www.indiehackers.com/interview/i-started-gumroad-as-a-weekend-project-and-now-it-s-making-350k-mo-4fc6cbc0e8)
+  - [Growing a Social Proof Marketing Platform to $88k/mo in Revenue](https://www.indiehackers.com/interview/growing-a-social-proof-marketing-platform-to-88k-mo-in-revenue-05b996966c)
 - <https://www.andreyazimov.com/> - Indie maker who documented his progress of reaching $1k MRR
 - [How I Created A $60K/Month App That Collects In-Person Payments Through Stripe](https://www.starterstory.com/stripe-in-person-payments)
 - [Tiny Capital](https://www.tinycapital.com/), the parent company of MetaLab, Dribble, and a bunch more

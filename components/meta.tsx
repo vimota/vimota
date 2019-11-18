@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 
 export default () => (
   <div>
@@ -9,6 +10,25 @@ export default () => (
       <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"/>
       <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.png" />
     </Head>
+    <NextSeo
+      title="Victor Mota"
+      description="Disciplined reason in action."
+      canonical="https://vimota.me/"
+      openGraph={{
+        url: 'https://vimota.me/',
+        title: 'Victor Mota',
+        description: 'Disciplined reason in action.',
+        images: [
+          { url: '/static/favicon.png' },
+        ],
+        site_name: 'Victor Mota',
+      }}
+      twitter={{
+        handle: '@vimota',
+        site: '@vimota',
+        cardType: 'summary',
+      }}
+    />
 
     { /* global styles */ }
     <style jsx global>{`

@@ -20,8 +20,8 @@ export default () => (
         type: 'website',
         description: 'Disciplined reason in action.',
         images: [
-          { width: 192,
-            height: 192,
+          { width: 200,
+            height: 200,
             url: 'https://vimota.me/static/favicon.png',
             alt: 'Logo'
           },

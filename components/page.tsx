@@ -6,8 +6,6 @@ export default ({ children }) => {
     <div className="main">
       <div className="logo">
         <Link href="/"><a>vimota.me</a></Link>
-        {' '}
-        (<a href={`https://github.com/vimota/vimota`} target="_blank">src</a>)
       </div>
       <div className="flexcontainer">
         <nav>

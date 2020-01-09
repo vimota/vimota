@@ -44,6 +44,10 @@ export default () => (
       }
       li {
         margin: 5px 0;
+        line-height: 23px;
+      }
+      ul {
+        margin-top: 12px;
       }
       blockquote {
         margin: 5px 0;

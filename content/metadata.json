@@ -1,11 +1,12 @@
 [{
+    "slug": "brasilia",
+    "title": "Brasília - Buliding a city from scratch",
+    "date": "2020-01-09",
+    "draft": false
+},{
     "slug": "indiehackers",
     "title": "On Bootstrapping and Indiehackers",
     "date": "2019-11-14",
     "draft": false
-},{
-    "slug": "my-first-post",
-    "title": "New site who dis??",
-    "date": "2019-06-10",
-    "draft": false
-}]
+}
+]

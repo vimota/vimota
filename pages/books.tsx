@@ -1,10 +1,18 @@
 import React from 'react';
 import Page from '../components/page';
 import BooksMd from '../content/books.md';
+import { NextSeo } from 'next-seo';
 
 function Books() {
 	return (
 			<Page>
+				<NextSeo
+          title="Books - Victor Mota"
+          openGraph={{
+            url: `https://vimota.me/books`,
+            title: "Books - Victor Mota",
+          }}
+        />
 				<article>
 					<BooksMd />
 				</article>

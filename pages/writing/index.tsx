@@ -3,6 +3,7 @@ import Page from '../../components/page';
 import posts from '../../content/metadata.json';
 import Link from 'next/link';
 import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 
 const Post = ({ slug, date, title }) => (
 	<div className="post">
@@ -41,8 +42,15 @@ const Post = ({ slug, date, title }) => (
 );
 
 
-const PostListing = ({ postSlug }) => (
+const PostListing = ({ }) => (
 	<Page>
+    <NextSeo
+          title="Writing - Victor Mota"
+          openGraph={{
+            url: `https://vimota.me/writing`,
+            title: "Writing - Victor Mota",
+          }}
+        />
 		<Head>
 			<title>Writing</title>
 		</Head>

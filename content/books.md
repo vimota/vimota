@@ -5,17 +5,17 @@
 
 Books I'm reading:
 
-- The Fountainhead
 - Road to Serfdom
 - Designing Data Intensive Applications
-- O Dono do Morro: Um Homem e a Batalha pelo Rio
 - Traction (Audio)
-- The Man Who Solved the Market (Audio)
 
 <br/>
 
 Recently Read:
 
+- The Fountainhead
+- O Dono do Morro: Um Homem e a Batalha pelo Rio
+- The Man Who Solved the Market (Audio)
 - Radical Markets
 - The (Mis)Behaviour of Markets by Mandelbrot
 - The Most Important Thing (Howard Marks)

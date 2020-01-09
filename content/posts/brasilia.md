@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 -->
-# Fast: Brasília - Buliding a city from scratch
+# Brasília - Buliding a city from scratch
 
 <br/>
 

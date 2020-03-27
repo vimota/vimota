@@ -1,4 +1,11 @@
-[{
+[
+{
+    "slug": "wfh",
+    "title": "Remote-first Tips for New WFHers",
+    "date": "2020-03-27",
+    "draft": false
+},
+{
     "slug": "brasilia",
     "title": "Brasília: Building a city from scratch",
     "date": "2020-01-09",

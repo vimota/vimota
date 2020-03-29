@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { DefaultSeo } from 'next-seo';
 import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default () => (
@@ -39,8 +38,28 @@ export default () => (
         background: #387002;
         text-decoration: none;
       }
+      article img {
+        max-width: 600px;
+      }
+      article h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      article h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      article h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      article h4 {
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
       p {
         line-height: 25px;
+        padding-bottom: 10px;
       }
       li {
         margin: 5px 0;

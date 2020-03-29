@@ -32,13 +32,13 @@ You may want to consider how you can leverage aspects of your team’s culture t
 
 ## Tip #1: Default open
 
-### :woman-gesturing-no: Problem
+### 🙅‍♀️ Problem
 
 Your team may be feeling isolated, out of the loop, and siloed. Team members may be communicating one on one but missing the sense of team and community. This can cause anything from miscommunications or dropped balls to serious tensions and degrading trust on your team.
 
   
 
-### :white_check_mark: Remote-first solution
+### ✅ Remote-first solution
 
 Default to communicating as openly and transparently as possible with your team. Make extensive use of public (to your team), readily accessible communication channels.
 
@@ -70,13 +70,13 @@ Get feedback earlier on things in progress. Normally you would get feedback abou
 
 ## Tip #2: Practice async communication
 
-### :woman-gesturing-no: Problem
+### 🙅‍♀️ Problem
 
 Feedback loops are slow. Team members are AFK and unresponsive during typical working hours. This can slow projects down and leave people feeling frustrated.
 
   
 
-### :white_check_mark: Remote-first solution
+### ✅ Remote-first solution
 
 Move more communication to async, setting norms and expectations so work still gets done efficiently. Kaggle’s team is distributed across many time zones so this is really important for us. Your teams may not be so distributed as ours, but at a time when so many team members’ schedules are becoming unpredictable or shifted, async can be critical.
 
@@ -104,13 +104,13 @@ Finally, if you’re worried about making sure you know what everyone on the tea
 
 ## Tip #3: Embrace a non-linear workflow
 
-### :woman-gesturing-no: Problem
+### 🙅‍♀️ Problem
 
 Without the ability to just walk over to someone and ask a question, team members are blocked and not making progress on a task, frustrated they can’t get immediate help.
 
   
 
-### :white_check_mark: Remote-first solution
+### ✅ Remote-first solution
 
 This tip applies especially to engineering teams. For engineers who bristle at lots of meetings and context switches, productivity is normally associated with finding flow on a single task. That’s not always possible in a remote, distributed context. Similarly to async communication, a remote workflow expects non-linear progress and optimizes for it.
 
@@ -136,13 +136,13 @@ When you’re blocked and waiting for someone’s response, give plenty of conte
 
   
 
-### :woman-gesturing-no: Problem
+### 🙅‍♀️ Problem
 
 Morale is low and team members feel lonely and disconnected from each other. Tensions might emerge as trust weakens. People may feel less willing to take risks.
 
   
 
-### :white_check_mark: Remote-first solution
+### ✅ Remote-first solution
 
 For many years, a Kaggler on our team, [Jeff Moser](https://www.kaggle.com/jeffmoser), has evangelized [Steve McConnell’s](https://stevemcconnell.com/) concept of the “half life of trust”. The longer you’re removed from aspects of your colleagues’ lives that make you realize who they are outside of work, the lower your trust is with them.
 

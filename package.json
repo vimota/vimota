@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mapbox/rehype-prism": "^0.4.0",
     "@mdx-js/loader": "^1.5.8",
     "@next/mdx": "^9.3.2",
     "@zeit/next-sass": "^1.0.1",
@@ -16,7 +17,12 @@
     "node-sass": "^4.13.1",
     "react": "16.9.0",
     "react-dom": "16.9.0",
-    "react-markdown": "^4.3.1"
+    "react-markdown": "^4.3.1",
+    "rehype-raw": "^4.0.2",
+    "rehype-sanitize": "^3.0.1",
+    "rehype-stringify": "^7.0.0",
+    "remark-rehype": "^6.0.0",
+    "unified": "^9.0.0"
   },
   "devDependencies": {
     "@babel/runtime-corejs2": "^7.9.2",

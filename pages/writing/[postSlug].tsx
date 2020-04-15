@@ -1,61 +1,66 @@
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
+import path from 'path';
+import { GetStaticProps, GetStaticPaths } from 'next';
+import fs from 'fs';
 import React from "react";
 import { NextSeo } from 'next-seo';
 import posts from '../../content/metadata.json';
 import Page from "../../components/page";
+import markdownToHtml from '../../lib/markdownToHtml';
 
-interface Props {
-  postSlug: string;
-}
+export const getStaticProps: GetStaticProps = async context => {
+  const { postSlug } = context.params;
+  const postMetadata = posts.find(x => x.slug == postSlug);
+  const filePath = path.join(process.cwd(), `./content/posts/${postSlug}.md`);
+  const md = fs.readFileSync(filePath, 'utf8');
+  const html = await markdownToHtml(md);
+  return { props: { postSlug, content: html, postMetadata } };
+};
 
-class Post extends React.Component<Props> {
-  static async getInitialProps({ query }) {
-    return { postSlug: query.postSlug };
-  }
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = posts.map(x => ({ params: { postSlug: x.slug } }));
+  return { paths, fallback: false };
+};
 
-  render() {
-		const { postSlug } = this.props;
-		const postMetadata = posts.find(x => x.slug == postSlug);
-    const MdComponent = dynamic(() =>
-      import(`../../content/posts/${postSlug}.md`)
-		);
-		if (!postMetadata || !MdComponent) {
-			return (
-				<Page>
-					<article>
-						No such post found.
-					</article>
-				</Page>
-			)
-		}
+function Post({ postMetadata, content, postSlug }) {
+  
+  if (!postMetadata || !content) {
     return (
       <Page>
-        <NextSeo
-          title={`${postMetadata.title} - Victor Mota`}
-          openGraph={{
-            url: `https://vimota.me/writing/${postSlug}`,
-            title: `${postMetadata.title} - Victor Mota`,
-          }}
-        />
         <article>
-          <MdComponent />
+          No such post found.
         </article>
-        <style jsx>{`
-          article {
-            max-width: 650px;
-            margin: auto;
-          }
-        `}</style>
-
-        <style jsx global>{`
-          body {
-            width: 100%;
-            overflow-x: hidden;
-          }
-        `}</style>
       </Page>
-    );
+    )
   }
-}
+  return (
+    <Page>
+      <NextSeo
+        title={`${postMetadata.title} - Victor Mota`}
+        openGraph={{
+          url: `https://vimota.me/writing/${postSlug}`,
+          title: `${postMetadata.title} - Victor Mota`,
+        }}
+      />
+      <article>
+        <div dangerouslySetInnerHTML={{'__html': content}}/>
+        {/* <MdComponent /> */}
+      </article>
+      <style jsx>{`
+        article {
+          max-width: 650px;
+          margin: auto;
+        }
+      `}</style>
+
+      <style jsx global>{`
+        body {
+          width: 100%;
+          overflow-x: hidden;
+        }
+      `}</style>
+    </Page>
+  );
+};
 
 export default Post;

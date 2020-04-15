@@ -1,5 +1,5 @@
 import Router from "next/router";
-import App, { Container } from "next/app";
+import App from "next/app";
 import * as gtag from "../lib/gtag";
 import { DefaultSeo } from "next-seo";
 
@@ -9,7 +9,7 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
     return (
-      <Container>
+      <>
         <DefaultSeo
           title="Victor Mota"
           description="Disciplined reason in action."
@@ -36,7 +36,7 @@ export default class MyApp extends App {
           }}
         />
         <Component {...pageProps} />
-      </Container>
+      </>
     );
   }
 }

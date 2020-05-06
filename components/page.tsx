@@ -7,8 +7,8 @@ export default ({ children }) => {
       <div className="logo">
         <Link href="/"><a>vimota.me</a></Link>
       </div>
-      <div className="flexcontainer">
-        <nav>
+      <div className="flex flex-col mt-4">
+        <nav className="md:fixed relative sidebar text-sm flex flex-row md:flex-col justify-between mb-4">
           <Link href="/about"><a>About Me</a></Link>
           <Link href="/writing"><a>Writing</a></Link>
           <Link href="/books"><a>Books</a></Link>
@@ -17,7 +17,7 @@ export default ({ children }) => {
         </nav>
     
         
-        <div className="content">
+        <div className="content flex flex-col leading-loose m-auto max-w-screen-lg md:px-24 overflow-x-hidden w-full z-10">
           { children }
         </div>
       </div>
@@ -41,9 +41,6 @@ export default ({ children }) => {
           display: inline-block;
           margin: 0 15px;
         }
-        .content {
-          width: 100%;
-        }
         @media (max-width: 500px) {
           .main {
             padding: 25px 15px;
@@ -51,27 +48,17 @@ export default ({ children }) => {
           .logo {
             padding-bottom: 20px;
           }
-          .content {
-            width: 260px;
-          }
-        }
-        .flexcontainer {
-          margin-top: 20px;
-          display: flex;
-          flex-direction: row;
         }
         nav {
           min-width: 95px;
-          display: flex;
-          flex-direction: column;
         }
         nav > * {
           padding: 3px 0px;
           margin: 2px 0px;
         }
-        nav > :first-child {
+        {/* nav > :first-child {
           margin-top: 0;
-        }
+        } */}
       `}</style>
     </div>
   )};

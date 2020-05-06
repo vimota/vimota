@@ -10,7 +10,7 @@ import html from 'rehype-stringify';
 // Create the processor, the order of the plugins is important
 const getProcessor = unified()
   .use(markdown)
-  .use(remarkToRehype, { allowDangerousHTML: true })
+  .use(remarkToRehype, { allowDangerousHtml: true })
   // Add custom HTML found in the markdown file to the AST
   .use(raw)
   // Sanitize the HTML

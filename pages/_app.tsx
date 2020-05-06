@@ -1,6 +1,7 @@
 import Router from "next/router";
 import App from "next/app";
 import * as gtag from "../lib/gtag";
+import '../styles/index.css';
 import { DefaultSeo } from "next-seo";
 
 Router.events.on("routeChangeComplete", url => gtag.pageview(url));

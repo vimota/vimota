@@ -17,7 +17,6 @@ const Post = ({ slug, date, title }) => (
         .date {
           display: inline-block;
           width: 140px;
-          text-align: right;
           margin-right: 30px;
           color: #999;
         }

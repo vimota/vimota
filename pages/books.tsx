@@ -13,23 +13,12 @@ function Books() {
             title: "Books - Victor Mota",
           }}
         />
-				<article>
+				<article className="max-w-screen-md md:px-18 m-auto">
 					<BooksMd />
 				</article>
 				<style jsx>{`
-				article {
-					max-width: 650px;
-					margin: auto;
-					font-size: 16px;
-				}
 			`}</style>
 
-				<style jsx global>{`
-				body {
-					width: 100%;
-					overflow-x: hidden;
-				}
-			`}</style>
 			</Page>);
 }
 

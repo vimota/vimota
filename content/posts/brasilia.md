@@ -1,6 +1,3 @@
-<!-- markdownlint-disable MD033 -->
-# Brasília - Building a city from scratch
-
 <br/>
 
 A couple of weeks ago, Patrick Collison's page collecting [ambitious projects completed in a short period of time](https://patrickcollison.com/fast) made the rounds on Twitter. Having been born in Brazil, an example came to mind that he hadn't included - Brasília:
@@ -9,7 +6,6 @@ A couple of weeks ago, Patrick Collison's page collecting [ambitious projects co
 >
 >Granted, there was still construction of government buildings and major infrastructure until around 1970, when the city became more of a capital in earnest. Regardless, I think the construction of Brasília captures the same ambition, resolve and efficiency of the projects you highlighted.
 
-<br/>
 <br/>
 
 The summary above was written by yours truly, but the wiki on the city's history is worth a read: [Brasilia](https://www.wikiwand.com/pt/Bras%C3%ADlia#/Hist%C3%B3ria). Some other interesting aspects about the city:

@@ -42,22 +42,16 @@ function Post({ postMetadata, content, postSlug }) {
           title: `${postMetadata.title} - Victor Mota`,
         }}
       />
-      <article>
-        <div dangerouslySetInnerHTML={{'__html': content}}/>
-        {/* <MdComponent /> */}
-      </article>
+      <div className="">
+        <div className="text-2xl">
+          {postMetadata.title}
+        </div>
+        <article>
+          <div dangerouslySetInnerHTML={{'__html': content}}/>
+          {/* <MdComponent /> */}
+        </article>
+      </div>
       <style jsx>{`
-        article {
-          max-width: 650px;
-          margin: auto;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        body {
-          width: 100%;
-          overflow-x: hidden;
-        }
       `}</style>
     </Page>
   );

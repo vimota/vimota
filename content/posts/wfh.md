@@ -6,7 +6,7 @@ So we recently shared our top five remote-first tips with Cloud AI leadership, o
 
 ![](https://lh3.googleusercontent.com/_2DqxUWQbNQPDl30igL5GyIRl-M6v10c8FPBOYu43Yqq2mxWQL1coExNhqG8KmWOG0krhWrrdFX6inVwmRL-jddLqg37LE3qYkAIvaZo1EAKkvXdi2Tl-yk7weTMTalklXoKjSGa)
 
-*Victor and me presenting our WFH tips to WFH Google Cloud AI leaders … while WFH.*
+*Meg and I presenting our WFH tips to WFH Google Cloud AI leaders … while WFH.*
 
 
 ## Background

@@ -57,8 +57,7 @@ blockquote p {
 /* Article styling, needs to be global since it's injected as  */
 /* raw HTMLl. */
 article img {
-	max-width: 600px;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 }
 article h1, article h2 {

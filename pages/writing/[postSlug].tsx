@@ -43,13 +43,18 @@ function Post({ postMetadata, content, postSlug }) {
         }}
       />
       <div className="">
+        <div className="text-gray-600 text-sm">
+          {postMetadata.date}
+        </div>
         <div className="text-2xl">
           {postMetadata.title}
         </div>
         <article>
           <div dangerouslySetInnerHTML={{'__html': content}}/>
-          {/* <MdComponent /> */}
         </article>
+      </div>
+        <div className="border text-center border-green-700 text-gray-800 px-4 py-3 my-3" role="alert">
+        <p className="text-sm">Reach out to me on <a href={"https://twitter.com/vimota"}>Twitter</a>, I'd love to hear from you!</p>
       </div>
       <style jsx>{`
       `}</style>

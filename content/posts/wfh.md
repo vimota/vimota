@@ -1,4 +1,4 @@
-*This was [originally published](https://dev.to/mrisdal/kaggle-s-top-5-remote-first-tips-for-teams-new-to-working-from-home-m7m-temp-slug-2516562?preview=a99d20098be60363a6686541f6309bfd709f9ad4be78744dbaa5a5c74e050ebdd1db823046efc5f8cd7b3ca732e3af6b4168e22f0e576cce1b3552f8) on Dev.to by Meg and I.*
+*This was [originally published](https://dev.to/mrisdal/kaggle-s-top-5-remote-first-tips-for-teams-new-to-working-from-home-m7m-temp-slug-2516562?preview=a99d20098be60363a6686541f6309bfd709f9ad4be78744dbaa5a5c74e050ebdd1db823046efc5f8cd7b3ca732e3af6b4168e22f0e576cce1b3552f8) on Dev.to by me and Meg.*
 
 [Kaggle](https://www.kaggle.com/) is a unique team at Google. Unlike the vast majority of Google teams, our team is fully remote-first and distributed in offices (Google and home) across North America and Australia. When the spread of COVID-19 led to mandates to **work from home (WFH)**, my coworker [Meg](https://twitter.com/MeganRisdal) and I saw an opportunity to share insights from our team to help others across Google adapt.
 

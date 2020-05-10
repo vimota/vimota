@@ -8,7 +8,7 @@ export default ({ children }) => {
         <Link href="/"><a>vimota.me</a></Link>
       </div>
       <div className="flex flex-col mt-4">
-        <nav className="md:fixed relative sidebar text-sm flex flex-row md:flex-col justify-between mb-4">
+        <nav className="md:fixed relative sidebar text-md flex flex-row md:flex-col justify-between mb-4">
           <Link href="/about"><a>About Me</a></Link>
           <Link href="/writing"><a>Writing</a></Link>
           <Link href="/books"><a>Books</a></Link>
@@ -17,7 +17,7 @@ export default ({ children }) => {
         </nav>
     
         
-        <div className="content flex flex-col leading-loose m-auto max-w-screen-lg md:px-24 overflow-x-hidden w-full z-10">
+        <div className="content flex flex-col leading-loose m-auto max-w-screen-sm overflow-x-hidden w-full z-10">
           { children }
         </div>
       </div>

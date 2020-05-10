@@ -59,6 +59,7 @@ blockquote p {
 article img {
 	max-width: 100%;
 	height: auto;
+	@apply mt-2;
 }
 article h1, article h2 {
 	@apply py-3;

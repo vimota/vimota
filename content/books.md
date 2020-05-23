@@ -6,8 +6,9 @@
 Books I'm reading:
 
 - Road to Serfdom
+- The Dao of Capital (Audio)
 - Designing Data Intensive Applications
-- Traction (Audio)
+- When I stop talking, You'll know I'm dead
 
 <br/>
 

@@ -56,6 +56,9 @@ blockquote p {
 
 /* Article styling, needs to be global since it's injected as  */
 /* raw HTMLl. */
+article {
+	@apply text-lg;
+}
 article img {
 	max-width: 100%;
 	height: auto;
@@ -75,5 +78,5 @@ article h4 {
 	@apply text-gray-600;
 }
 article p {
-	@apply py-1;
+	@apply py-2;
 }

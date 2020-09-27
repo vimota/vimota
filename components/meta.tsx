@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { GA_TRACKING_ID } from '../lib/gtag'
 
-export default () => (
+const Meta = () => (
   <div>
     <Head>
       <title>Victor Mota</title>
@@ -20,4 +20,5 @@ export default () => (
       }></script>
     </Head>
   </div>
-)
+);
+export default Meta;

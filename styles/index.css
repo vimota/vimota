@@ -1,4 +1,4 @@
-@import 'tailwind.css';
+@import "tailwind.css";
 
 h1 {
   @apply text-2xl;
@@ -11,72 +11,79 @@ h3 {
 }
 
 * {
-	margin: 0;
-	box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-	font: 16px 'Lato', sans-serif;
-	width: 100%;
-	overflow-x: hidden;
+  @apply font-sans;
+  width: 100%;
+  overflow-x: hidden;
 }
 a {
-	color: #689f38;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+  color: #689f38;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a:hover {
-	color: #fff;
-	background: #387002;
-	text-decoration: none;
+  color: #fff;
+  background: #387002;
+  text-decoration: none;
 }
 li {
-	margin: 5px 0;
+  margin: 5px 0;
 }
 ul {
-	margin-top: 12px;
-	@apply list-inside;
-	@apply list-disc;
+  margin-top: 12px;
+  @apply list-inside;
+  @apply list-disc;
+}
+ul > li {
+  margin-left: 15px;
+}
+ul > li > ul > li {
+  margin-left: 15px;
 }
 blockquote {
-	margin: 5px 0;
-	background: #f9f9f9;
-	border-left: 10px solid #ccc;
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+  margin: 5px 0;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
 }
 blockquote:before {
-	color: #ccc;
-	font-size: 4em;
-	line-height: 0.1em;
-	margin-right: 0.25em;
-	vertical-align: -0.4em;
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 blockquote p {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* Article styling, needs to be global since it's injected as  */
 /* raw HTMLl. */
 article {
-	@apply text-lg;
+  @apply text-lg;
 }
 article img {
-	max-width: 100%;
-	height: auto;
-	@apply mt-2;
+  max-width: 100%;
+  height: auto;
+  @apply mt-2;
 }
-article h1, article h2 {
-	@apply py-3;
+article h1,
+article h2 {
+  @apply py-3;
 }
 article > h1:first-of-type {
-	@apply pt-0;
+  @apply pt-0;
 }
 article h3 {
-	@apply py-2;
+  @apply py-2;
 }
 article h4 {
-	@apply py-2;
-	@apply text-gray-600;
+  @apply py-2;
+  @apply text-gray-600;
 }
 article p {
-	@apply py-2;
+  @apply py-2;
 }

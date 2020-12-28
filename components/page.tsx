@@ -1,7 +1,7 @@
 import Meta from './meta';
 import Link from 'next/link';
 
-export default ({ children }) => {
+const Page = ({ children }) => {
   return (
     <div className="main">
       <div className="logo">
@@ -62,3 +62,5 @@ export default ({ children }) => {
       `}</style>
     </div>
   )};
+
+export default Page;

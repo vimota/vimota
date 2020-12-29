@@ -1,4 +1,8 @@
 {
     "editor.insertSpaces": false,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "cSpell.words": [
+        "Incerto",
+        "Starrett"
+    ]
 }

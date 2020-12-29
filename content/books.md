@@ -1,19 +1,25 @@
 <!-- markdownlint-disable MD033 -->
+
 # Books
 
 <br/>
 
 Books I'm reading:
 
-- Road to Serfdom
-- The Dao of Capital (Audio)
+- The Pleasure Shock (Audio)
+- Why Be Jewish
+- Scala for the Impatient
 - Designing Data Intensive Applications
-- When I stop talking, You'll know I'm dead
 
 <br/>
 
 Recently Read:
 
+- Working in Public
+- Th MindBody Prescription (dealing with some chronic shoulder pain)
+- The Dao of Capital (Audio)
+- Never Split the Difference
+- When I stop talking, You'll know I'm dead
 - The Fountainhead
 - O Dono do Morro: Um Homem e a Batalha pelo Rio
 - The Man Who Solved the Market (Audio)

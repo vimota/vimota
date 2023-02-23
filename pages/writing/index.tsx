@@ -8,7 +8,7 @@ import { NextSeo } from 'next-seo';
 const Post = ({ slug, date, title }) => (
 	<div className="post">
 		<span className="date">{date}</span>
-		<Link href={`/writing/${slug}`}><a>{title}</a></Link>
+		<Link href={`/writing/${slug}`}>{title}</Link>
 
 		<style jsx>{`
         .post {

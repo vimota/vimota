@@ -1,8 +1,7 @@
 import Head from "next/head";
-import { GA_TRACKING_ID } from "../lib/gtag";
 
 const Meta = () => (
-  <div>
+  <>
     <Head>
       <title>Victor Mota</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,21 +16,7 @@ const Meta = () => (
         type="image/x-icon"
         href="/static/favicon.png"
       />
-      <script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-      ></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments)}
-            gtag("js", new Date());
-            gtag("config", '${GA_TRACKING_ID}');
-        `,
-        }}
-      ></script>
     </Head>
-  </div>
+  </>
 );
 export default Meta;

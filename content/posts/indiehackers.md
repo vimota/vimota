@@ -1,13 +1,13 @@
 <br/>
 
-In a recent discussion with a friend about startups, I brought up my interest in the world of [Indiehackers] (indiehackers.com) and, more generally, bootstrapping micro businesses. It occurred to me that this topic, although hugely hyped in my Twitter bubble, was not familiar to a lot of people within tech. Most people I brought it up with had heard about bootstrapping but more as a quirky alternative to venture capital than the legitimate community its grown into the last couple of years. This page is my effort to collect interesting links related to that world, and to serve as a good starting point to someone interested in learning about it.
+In a recent discussion with a friend about startups, I brought up my interest in the world of [Indiehackers](indiehackers.com) and, more generally, bootstrapping micro businesses. It occurred to me that this topic, although hugely hyped in my Twitter bubble, was not familiar to a lot of people within tech. Most people I brought it up with had heard about bootstrapping but more as a quirky alternative to venture capital than the legitimate community its grown into the last couple of years. This page is my effort to collect interesting links related to that world, and to serve as a good starting point to someone interested in learning about it.
 
 <br/>
 <br/>
 
 A random collection of resources and stories on Bootstrapping, Indiehack(ing), and lifestyle businesses:
 
-- [Indiehackers] (indiehackers.com)
+- [Indiehackers](indiehackers.com)
 - Indiehackers Interviews:
   - [Creating a $100,000/mo Business That Helps People Learn to Code](https://www.indiehackers.com/interview/creating-a-100-000-mo-business-that-helps-people-learn-to-code-c5e87bdbf9)
   - [I Ran My Side Hustle During Work Hours. Now It Makes Millions.](https://www.indiehackers.com/interview/i-ran-my-side-hustle-during-work-hours-now-it-makes-millions-35469ddaa5)

@@ -78,12 +78,12 @@ article > h1:first-of-type {
   @apply pt-0;
 }
 article h3 {
-  @apply py-2;
+  @apply py-4;
 }
 article h4 {
-  @apply py-2;
+  @apply py-3;
   @apply text-gray-600;
 }
 article p {
-  @apply py-2;
+  @apply py-4;
 }

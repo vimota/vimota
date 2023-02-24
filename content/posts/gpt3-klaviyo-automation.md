@@ -24,7 +24,7 @@ That worked exactly as expected - text search is actually super easy with Postgr
 
 Next I thought, maybe GPT-3 could automate this completely.
 
-![GPT-3 correctly identifying a match](/static/gpt3-1.png | width=100 )
+![GPT-3 correctly identifying a match](/static/gpt3-1.png)
 ![GPT-3 correctly identifying no nmatches](/static/gpt3-2.png)
 
 And it pretty much worked! Using prompts to find matches is not really ideal, but we want to use GPT's semantic understanding.

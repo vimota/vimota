@@ -39,28 +39,28 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       ></Script>
       <DefaultSeo
         title="Victor Mota"
-        description="Disciplined reason in action."
-        canonical="https://vimota.me/"
-        openGraph={{
-          url: "https://vimota.me/",
-          title: "Victor Mota",
-          type: "website",
-          description: "Disciplined reason in action.",
-          images: [
-            {
-              width: 200,
-              height: 200,
-              url: "https://vimota.me/static/favicon.png",
-              alt: "Logo"
-            }
-          ],
-          site_name: "Victor Mota"
-        }}
-        twitter={{
-          handle: "@vimota",
-          site: "@vimota",
-          cardType: "summary"
-        }}
+        description="", //"Disciplined reason in action."
+      canonical="https://vimota.me/"
+      openGraph={{
+        url: "https://vimota.me/",
+        title: "Victor Mota",
+        type: "website",
+        description: "", // "Disciplined reason in action.",
+        images: [
+          {
+            width: 200,
+            height: 200,
+            url: "https://vimota.me/static/favicon.png",
+            alt: "Logo"
+          }
+        ],
+        site_name: "Victor Mota"
+      }}
+      twitter={{
+        handle: "@vimota",
+        site: "@vimota",
+        cardType: "summary"
+      }}
       />
       <Component {...pageProps} />
     </>

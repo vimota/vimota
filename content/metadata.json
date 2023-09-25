@@ -1,5 +1,10 @@
 [
   {
+    "slug": "duckdb-analytics-server",
+    "title": "Using DuckDB to serve online analytics",
+    "date": "2023-09-24",
+    "draft": false
+  },{
     "slug": "gpt3-klaviyo-automation",
     "title": "Using AI to Automate a Personalized Klaviyo Campaign",
     "date": "2023-02-23",

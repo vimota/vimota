@@ -44,7 +44,7 @@ export default function Home() {
           font-weight: normal;
         }
         nav {
-          margin-top: 20px;
+          margin: 20px 0;
           display: flex;
           flex-flow: row wrap;
           width: 300px;
@@ -57,6 +57,6 @@ export default function Home() {
           text-decoration: none;
         }
     `}</style>
-    </div>
+    </div >
   )
 }

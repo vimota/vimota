@@ -14,6 +14,7 @@ const Page = ({ children }) => {
           <Link className="py-1 my-0.5" href="/books">Books</Link>
           <Link target="_blank" className="py-1 my-0.5" href="https://twitter.com/vimota">Twitter</Link>
           <Link className="py-1 my-0.5" href="mailto:vimota@gmail.com">Email</Link>
+          <Link className="py-1 my-0.5" href="https://cal.com/vimota/15min">Chat with me 👋</Link>
         </nav>
 
 

@@ -19,4 +19,8 @@ Technical areas I'm investigating:
 - Better dbs and services for them (ie. Fauna, Supabase, Materialize, Cloudflare object store, etc)
 
 \
-Find me on [Twitter](https://twitter.com/vimota).
+Find me on [Twitter](https://twitter.com/vimota). 
+
+I also love to meet new people, schedule some [time](https://calendly.com/vimota/15min) with me!
+
+```

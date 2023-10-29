@@ -1,6 +1,5 @@
 import { unified } from 'unified'
-import markdown from 'remark-parse';
-import remarkToRehype from 'remark-rehype';
+import remarkParse from 'remark-parse';
 import raw from 'rehype-raw';
 import sanitize from 'rehype-sanitize';
 import prism from '@mapbox/rehype-prism';
@@ -19,12 +18,10 @@ const removeParagraphsInListItems = () => {
 };
 
 
-
-
 // Taken from https://github.com/zeit/next-site/blob/master/lib/docs/markdown-to-html.js.
 // Create the processor, the order of the plugins is important
 const getProcessor = unified()
-  .use(markdown)
+  .use(remarkParse)
   .use(remarkRehype, { allowDangerousHtml: true })
   .use(removeParagraphsInListItems)
   // Add custom HTML found in the markdown file to the AST

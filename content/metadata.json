@@ -1,12 +1,12 @@
 [
   {
-    "slug": "gpt-wrapper-moats.md",
+    "slug": "gpt-wrapper-moats",
     "title": "Building Defensible GPT Wrappers",
     "date": "2023-10-29",
     "draft": false
   },
   {
-    "slug": "LLMops-infra-landscape.md",
+    "slug": "LLMops-infra-landscape",
     "title": "The LLMops Infrastructure Landscape",
     "date": "2023-10-20",
     "draft": false

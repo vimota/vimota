@@ -59,8 +59,11 @@ dependencies:
     specifier: ^3.2.7
     version: 3.2.7(postcss@8.4.21)
   unified:
-    specifier: ^9.2.0
-    version: 9.2.0
+    specifier: ^10.1.2
+    version: 10.1.2
+  unist-util-visit:
+    specifier: ^5.0.0
+    version: 5.0.0
 
 devDependencies:
   '@types/node':

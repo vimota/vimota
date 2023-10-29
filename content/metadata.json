@@ -1,15 +1,29 @@
 [
   {
+    "slug": "gpt-wrapper-moats.md",
+    "title": "Building Defensible GPT Wrappers",
+    "date": "2023-10-29",
+    "draft": false
+  },
+  {
+    "slug": "LLMops-infra-landscape.md",
+    "title": "The LLMops Infrastructure Landscape",
+    "date": "2023-10-20",
+    "draft": false
+  },
+  {
     "slug": "duckdb-analytics-server",
     "title": "Using DuckDB to Serve Online Analytics",
     "date": "2023-09-24",
     "draft": false
-  },{
+  },
+  {
     "slug": "gpt3-klaviyo-automation",
     "title": "Using AI to Automate a Personalized Klaviyo Campaign",
     "date": "2023-02-23",
     "draft": false
-  },{
+  },
+  {
     "slug": "interviews",
     "title": "How to Win Interviews and Influence Offers",
     "date": "2020-10-23",

@@ -1,15 +1,14 @@
 # About
 
-I'm a Brazilian-Canadian engineer working in Stripe's Financial Data team, having previously worked at Google (BigQuery Storage, Kaggle). I studied Computer Engineering at the University of Waterloo.
+I was born in Brazil and grew up in Toronto, Canada. I'm an engineer and co-founder of [CoPlane](https://coplane.com). Before that I was part of Stripe's Financial Systems team, having previously worked at Google (BigQuery Storage, Kaggle). I studied Computer Engineering at the University of Waterloo.
 \
 \
 Things I'm loosely thinking about and working on:
 
+- Data-centric Automation for Enterprises 
 - Open source and its application to the tragedy of the commons
 - Tools for thought
-- The future of monetization for creators
 - Rabbit hole of [Kelly Starrett mobility videos](https://www.youtube.com/channel/UCnnB4zDBqZHhQ4uLTAX8eYA).
-- Making my way through [Designing Data Intensive Applications](https://dataintensive.net/).
 
 \
 Technical areas I'm investigating:

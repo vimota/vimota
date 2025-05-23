@@ -1,4 +1,4 @@
-Everybody already knows they should be using strong passwords, a password manager, and ideally 2FA. All of which I do—obviously. But last week, before traveling, I logged out of my Google account on some devices — just to be safe — and accidentally almost locked myself out permanently. 
+Everybody already knows they should be using strong passwords, a password manager, and ideally 2FA. All of which I also do—obviously. But last week, before traveling, I logged out of my Google account on some devices and accidentally almost locked myself out permanently. 
 
 It wasn’t until I tried signing back in that I noticed a critical oversight: my Google account depended on other devices or Google Authenticator for two-factor authentication, creating a circular dependency. Thankfully, an old logged-in iPad saved the day. That scare forced me to realize that despite using a password manager and maintaining generally good security hygiene, I hadn’t actually mapped out my accounts’ dependency graphs or planned adequately for recovery scenarios.
 

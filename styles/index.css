@@ -29,7 +29,7 @@ a:hover {
   text-decoration: none;
 }
 li {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 ul {
   margin-top: 12px;
@@ -63,7 +63,8 @@ blockquote p {
 /* Article styling, needs to be global since it's injected as  */
 /* raw HTMLl. */
 article {
-  @apply text-lg;
+  @apply text-base;
+  @apply pb-6;
 }
 article img {
   max-width: 100%;
@@ -72,18 +73,19 @@ article img {
 }
 article h1,
 article h2 {
-  @apply py-3;
+  @apply pt-5 pb-0;
 }
 article > h1:first-of-type {
   @apply pt-0;
 }
 article h3 {
-  @apply py-4;
+  @apply text-lg;
+  @apply pt-5 pb-0;
 }
 article h4 {
   @apply py-3;
   @apply text-gray-600;
 }
 article p {
-  @apply py-4;
+  @apply py-2;
 }

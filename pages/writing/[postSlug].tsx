@@ -23,7 +23,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 function Post({ postMetadata, content, postSlug }) {
-  
+
   if (!postMetadata || !content) {
     return (
       <Page>
@@ -46,14 +46,14 @@ function Post({ postMetadata, content, postSlug }) {
         <div className="text-gray-600 text-sm">
           {postMetadata.date}
         </div>
-        <div className="text-2xl">
+        <div className="text-2xl pt-4 pb-2">
           {postMetadata.title}
         </div>
         <article>
-          <div dangerouslySetInnerHTML={{'__html': content}}/>
+          <div dangerouslySetInnerHTML={{ '__html': content }} />
         </article>
       </div>
-        <div className="border text-center border-green-700 text-gray-800 px-4 py-3 my-3" role="alert">
+      <div className="border text-center border-green-700 text-gray-800 px-4 py-3 my-3" role="alert">
         <p className="text-base">Reach out to me on <a href={"https://twitter.com/vimota"}>Twitter</a>, I&apos;d love to hear from you!</p>
       </div>
       <style jsx>{`

@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./components/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
+  content: ['./Components/**/*.{js,jsx,ts,tsx}', './pages/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -35,7 +35,7 @@ module.exports = {
           css: {
             maxWidth: 'none',
             color: '#374151',
-            lineHeight: '1.75',
+            lineHeight: '1.5',
           },
         },
       },

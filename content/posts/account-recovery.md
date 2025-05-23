@@ -1,8 +1,8 @@
-Everybody already knows they should be using strong passwords, a password manager, and ideally 2FA. All of which I do—obviously. But last week, before traveling, I logged out of my Google account on some devices — just to be safe — and almost locked myself out permanently. 
+Everybody already knows they should be using strong passwords, a password manager, and ideally 2FA. All of which I do—obviously. But last week, before traveling, I logged out of my Google account on some devices — just to be safe — and accidentally almost locked myself out permanently. 
 
 It wasn’t until I tried signing back in that I noticed a critical oversight: my Google account depended on other devices or Google Authenticator for two-factor authentication, creating a circular dependency. Thankfully, an old logged-in iPad saved the day. That scare forced me to realize that despite using a password manager and maintaining generally good security hygiene, I hadn’t actually mapped out my accounts’ dependency graphs or planned adequately for recovery scenarios.
 
-More than ever, now that so much of our personal and professional lives are online, secure and reliable access, with ability to recover, accounts is absolutely critical.
+Now that so much of our personal and professional lives are online, more than ever, secure access to accounts, with the reliable ability to recover, is absolutely critical.
 
 ## Why 2FA on Other Devices Isn’t Enough
 
@@ -59,9 +59,9 @@ Only three critical passwords need memorization:
 ## Recovery Plan Scenarios
 
 **Lost Devices (Partial Loss)**
-1.	Use any remaining authenticated device to regain access:
-- Retrieve credentials via Password Manager.
-- Authenticate using available MFA methods or hardware keys.
+-	Use any remaining authenticated device to regain access:
+	- Retrieve credentials via Password Manager.
+	- Authenticate using available MFA methods or hardware keys.
 
 **Lost All Devices**
 -	Recover Password Manager using Emergency Kit and proceed as above.

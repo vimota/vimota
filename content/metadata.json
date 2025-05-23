@@ -1,5 +1,11 @@
 [
   {
+    "slug": "account-recovery",
+    "title": "On Having an Account Recovery Plan",
+    "date": "2025-05-22",
+    "draft": false
+  },
+  {
     "slug": "gpt-wrapper-moats",
     "title": "Building Defensible GPT Wrappers",
     "date": "2023-10-29",

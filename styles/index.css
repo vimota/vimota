@@ -1,13 +1,14 @@
 @import "tailwind.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 h1 {
-  @apply text-2xl;
+  @apply text-3xl font-medium tracking-tight;
 }
 h2 {
-  @apply text-xl;
+  @apply text-2xl font-medium tracking-tight;
 }
 h3 {
-  @apply text-lg;
+  @apply text-xl font-medium;
 }
 
 * {
@@ -15,21 +16,23 @@ h3 {
   box-sizing: border-box;
 }
 body {
-  @apply font-sans;
+  @apply font-sans text-gray-800 bg-gray-50;
   width: 100%;
   overflow-x: hidden;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 a {
-  color: #689f38;
+  @apply text-primary-700 no-underline transition-all duration-200 ease-in-out;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a:hover {
-  color: #fff;
-  background: #387002;
-  text-decoration: none;
+  @apply text-primary-600 no-underline decoration-2 underline-offset-2;
 }
 li {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 ul {
   margin-top: 12px;
@@ -43,47 +46,48 @@ ul > li > ul > li {
   margin-left: 15px;
 }
 blockquote {
-  margin: 5px 0;
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
+  @apply bg-gray-100 border-l-4 border-primary-500 my-6 mx-0 py-4 px-6 rounded-r-lg;
+  font-style: italic;
 }
 blockquote:before {
-  color: #ccc;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+  content: none;
 }
 blockquote p {
-  margin-top: 10px;
+  @apply mt-0 text-gray-700;
 }
 
 /* Article styling, needs to be global since it's injected as  */
 /* raw HTMLl. */
 article {
-  @apply text-lg;
+  @apply leading-relaxed text-gray-800 pb-8;
 }
 article img {
   max-width: 100%;
   height: auto;
-  @apply mt-2;
+  @apply mt-6 mb-4 rounded-lg shadow-sm;
 }
 article h1,
 article h2 {
-  @apply py-3;
+  @apply pt-8 pb-2 text-gray-900 text-xl;
 }
 article > h1:first-of-type {
-  @apply pt-0;
+  @apply pt-0 pb-4 text-primary-900;
 }
 article h3 {
-  @apply py-4;
+  @apply text-lg font-medium pt-6 pb-2 text-gray-900;
 }
 article h4 {
-  @apply py-3;
-  @apply text-gray-600;
+  @apply py-3 text-gray-700 font-medium;
 }
 article p {
-  @apply py-4;
+  @apply py-3 leading-relaxed;
+}
+article code {
+  @apply bg-gray-100 text-gray-800 px-2 py-1 rounded text-sm font-mono;
+}
+article pre {
+  @apply bg-gray-900 text-gray-100 p-4 rounded-lg my-6 overflow-x-auto;
+}
+article pre code {
+  @apply bg-transparent text-gray-100 p-0;
 }

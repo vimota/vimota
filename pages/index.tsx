@@ -6,7 +6,7 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <div className="home">
-      { /* global styles and meta tags */}
+      {/* head elements */}
       <Meta />
       <Head>
         <title>Victor Mota</title>

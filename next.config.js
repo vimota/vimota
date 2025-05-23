@@ -3,9 +3,8 @@ const withMDX = require('@next/mdx')({
 });
 
 module.exports = withMDX({
-    webpack(config, _) {
-      // Further custom configuration here
-      return config
-    },
-  }
-)
+  webpack(config, _) {
+    // Further custom configuration here
+    return config
+  },
+})

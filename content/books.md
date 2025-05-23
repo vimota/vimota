@@ -3,7 +3,8 @@
 # Books
 
 #### Books I'm reading:
-- Made to Stick
+- There Is No Antimemetics Division
+- The Difference Between Larry Ellison and God
 - Greater than the Sum of Our Parts
 
 

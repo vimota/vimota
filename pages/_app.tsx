@@ -1,4 +1,4 @@
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 import { AppProps } from "next/app";
 import * as gtag from "../lib/gtag";
 import '../styles/index.css';
@@ -40,7 +40,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     return () => {
       router.events.off('routeChangeComplete', onRouteChangeComplete);
     };
-  }, []);
+  }, [router.events]);
 
   return (
     <>
@@ -49,6 +49,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
       ></Script>
       <Script
+        id="gtag-inline"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `

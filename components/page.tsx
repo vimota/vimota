@@ -23,10 +23,10 @@ const Page = ({ children }) => {
         </div>
       </div>
 
-      { /* global styles and meta tags */}
+      {/* head elements */}
       <Meta />
 
-      { /* local styles */}
+      {/* page styling */}
       <style jsx>{`
         .main {
           padding: 25px 50px;

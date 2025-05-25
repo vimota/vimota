@@ -6,7 +6,7 @@ import { DefaultSeo } from "next-seo";
 import { useEffect } from "react";
 import Script from "next/script";
 import { GA_TRACKING_ID } from "../lib/gtag";
-import * as Fathom from 'fathom-client';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -17,28 +17,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
       router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
-
-  useEffect(() => {
-    // Initialize Fathom when the app loads
-    // Example: yourdomain.com
-    //  - Do not include https://
-    //  - This must be an exact match of your domain.
-    //  - If you're using www. for your domain, make sure you include that here.
-    Fathom.load('KHDVFLJB', {
-      includedDomains: ['vimota.me'],
-    });
-
-    function onRouteChangeComplete() {
-      Fathom.trackPageview();
-    }
-    // Record a pageview when route changes
-    router.events.on('routeChangeComplete', onRouteChangeComplete);
-
-    // Unassign event listener
-    return () => {
-      router.events.off('routeChangeComplete', onRouteChangeComplete);
     };
   }, [router.events]);
 
@@ -63,13 +41,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       ></Script>
       <DefaultSeo
         title="Victor Mota"
-        // description="Disciplined reason in action."
         canonical="https://vimota.me/"
         openGraph={{
           url: "https://vimota.me/",
           title: "Victor Mota",
           type: "website",
-          // description: "Disciplined reason in action.",
           images: [
             {
               width: 200,
@@ -87,6 +63,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         }}
       />
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }

@@ -16,9 +16,11 @@ Passkeys are a significant step forward, providing secure, passwordless login (s
 
 ## Why Security Keys are Essential
 
-Hardware security keys (e.g., YubiKeys) provide great protection and are independent from device-based authentication methods. They’re resilient against phishing and don’t rely on the fragile ecosystem of device logins. 
+Hardware security keys (e.g., [YubiKeys](https://amzn.to/3H93ZIZ)) provide great protection and are independent from device-based authentication methods. They’re resilient against phishing and don’t rely on the fragile ecosystem of device logins. 
 
 Since security keys have a different risk profile to personal devices (they're cheap, aren't valueable enough to be stolen, and aren't easily destroyed) they make a great backup to device-based authentication methods. Keep multiple security keys stored securely and separately, ensuring you have access even in worst-case scenarios.
+
+I recommend the cheaper [Yubico C-series NFC](https://amzn.to/3HbiewT), which only support FIDO2 and FIDO rather than OTP, which for personal uses is probably all you need and is more secure! FYI, I've linked my Amazon affiliate link in case you want to get that one.
 
 ## An Ideal Account Security and Recovery Plan
 

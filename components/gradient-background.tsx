@@ -1,6 +1,6 @@
 import { shaderMaterial } from "@react-three/drei";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo } from "react";
 import * as THREE from "three";
 
 const toColor = (c: { r: number; g: number; b: number }) =>
@@ -323,7 +323,7 @@ function useGradientMaterial() {
   useEffect(() => () => material.dispose(), [material]);
 
   useEffect(() => {
-    material.uniforms.uResolution.value.set(size.width, size.height);
+    ((material.uniforms.uResolution as unknown) as THREE.IUniform<THREE.Vector2>).value.set(size.width, size.height);
   }, [material, size]);
 
   return material;
@@ -332,9 +332,14 @@ function useGradientMaterial() {
 function AnimatedGradientPlane() {
   const material = useGradientMaterial();
   const clock = useThree((state) => state.clock);
+  const materialRef = React.useRef(material);
+
+  useEffect(() => {
+    ((materialRef.current.uniforms.uAnimSpeed as unknown) as THREE.IUniform<number>).value = 5;
+  }, []);
 
   useFrame(() => {
-    material.uniforms.uTime.value = clock.getElapsedTime();
+    ((materialRef.current.uniforms.uTime as unknown) as THREE.IUniform<number>).value = clock.getElapsedTime();
   });
 
   return (
@@ -349,11 +354,12 @@ function StaticGradientPlane() {
   const material = useGradientMaterial();
   const invalidate = useThree((state) => state.invalidate);
   const staticTime = useMemo(() => 845, []);
+  const materialRef = React.useRef(material);
 
   useEffect(() => {
-    material.uniforms.uTime.value = staticTime;
+    ((materialRef.current.uniforms.uTime as unknown) as THREE.IUniform<number>).value = staticTime;
     invalidate();
-  }, [material, staticTime, invalidate]);
+  }, [staticTime, invalidate]);
 
   return (
     <mesh>
@@ -368,16 +374,6 @@ export default function GradientBackground({
 }: {
   isStatic?: boolean;
 }) {
-  const [ready, setReady] = useState(false);
-
-  useEffect(() => {
-    setReady(true);
-  }, []);
-
-  if (!ready) {
-    return null;
-  }
-
   const PlaneComponent = isStatic ? StaticGradientPlane : AnimatedGradientPlane;
 
   return (

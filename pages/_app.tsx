@@ -7,9 +7,11 @@ import { useEffect } from "react";
 import Script from "next/script";
 import { GA_TRACKING_ID } from "../lib/gtag";
 import { Analytics } from "@vercel/analytics/next"
+import GradientBackground from "../components/gradient-background";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
+  const isHome = router.pathname === "/";
   useEffect(() => {
     const handleRouteChange = (url: string) => {
       gtag.pageview(url);
@@ -22,6 +24,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <GradientBackground isStatic={!isHome} />
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
